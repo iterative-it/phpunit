@@ -20,6 +20,20 @@
         "issues": "https://github.com/sebastianbergmann/phpunit/issues"
     },
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/iterative-it/instantiator.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/iterative-it/phpspec.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/iterative-it/prophecy.git"
+        }
+    ],
     "require": {
         "php": "^7.0",
         "ext-dom": "*",
